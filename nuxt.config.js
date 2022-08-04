@@ -48,5 +48,19 @@ export default {
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
-  }
+  },
+
+  googleFonts: {
+    families: {
+    Roboto: [100, 300, 400, 500, 700, 900],
+    Oswald: true,
+    'Lilita+One': true,
+    'Josefin+Sans': true,
+    Lato: [100, 300],
+    Raleway: {
+    wght: [100, 400],
+    ital: [100],
+    },
+    },
+    }, 
 }
