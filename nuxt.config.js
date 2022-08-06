@@ -31,7 +31,9 @@ export default {
   buildModules: [
     // https://go.nuxtjs.dev/eslint
     '@nuxtjs/eslint-module',
-    '@nuxtjs/tailwindcss'
+    '@nuxtjs/tailwindcss',
+    '@nuxtjs/google-fonts'
+
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -54,8 +56,8 @@ export default {
     families: {
     Roboto: [100, 300, 400, 500, 700, 900],
     Oswald: true,
-    'Lilita+One': true,
-    'Josefin+Sans': true,
+    'Lilita One': true,
+    'Josefin Sans': true,
     Lato: [100, 300],
     Raleway: {
     wght: [100, 400],
