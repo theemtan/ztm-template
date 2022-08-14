@@ -36,11 +36,12 @@
 
     <div class="grid grid-cols-2 px-80 gap-5">
         <div id="left-item-column">
-          <Item />
-          <Item />
+          <Item image="crispy-chicken.jpg" title="Crispy Chicken Burger" description="Chicken Breast, Chilli Sauce, Tomatoes, Pickles, Coleslaw" price="11.99" />
+          <Item image="double-burger.jpg" title="Double Cheeseburger" description="Aussie Beef Patty, Barbeque Sauce, Crispy Bacon, Red Onions" price="16.99" />
         </div>
         <div id="right-item-column">
-          <Item />
+          <Item image="baa-baa.jpg" title="Baa Baa Black Sheep" description="Juicy Lamb Patty, American Cheese, Tomato Relish, Lettuce" price="15.75" />
+          <Item image="ultimate-bacon.jpg" title="Ultimate Bacon" description="House Beef Patty, Cheddar Cheese, Smokey Bacon, Onions, Mustard" price="14.99" />
         </div>
     </div>
     </div>
