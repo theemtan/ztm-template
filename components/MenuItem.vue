@@ -1,7 +1,7 @@
 <template>
   <div class="border rounded-md border-gray-200 text-center py-5 mb-5 pl-5">
     <div>
-      <img :src="item.image" width="500" height="200" class="p-5" alt="burgers" />
+      <img :src="'/'+item.image" width="500" height="200" class="border border-gray p-5" alt="burgers" />
     </div>
     <h4 class="font-oswald text-2xl uppercase mt-5">{{ item.name }}</h4>
     <p class="font-light text-gray-500 my-2">{{ item.description }}</p>
