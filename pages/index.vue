@@ -27,7 +27,7 @@
     </div>
     </div>
 
-    <div id="section-1" class="text-center bg-[url('/three_burgers.jpg')] pb-96 bg-cover">
+    <div id="section-1" class="text-center bg-[url('/bg-burgers.png')] py-40 bg-cover">
     <h1 class="text-6xl uppercase font-oswald pt-20 px-24">
       The burger tastes better when you eat it with family
     </h1>
