@@ -7,11 +7,12 @@
       </div>
 
       <div id="menu_right">
-        <ul class="grid grid-cols-4 text-lg font-papyrus text-white uppercase pt-5">
+        <ul class="grid grid-cols-5 text-lg font-papyrus text-white uppercase pt-5">
           <li>About Us</li>
-          <li>Our Menu</li>
+          <NuxtLink to="/menu">Our Menu</NuxtLink>
           <li>Contact Us</li>
           <li>Location</li>
+          <NuxtLink to="/cart">Cart</NuxtLink>
         </ul>
       </div>
     </div>
@@ -25,14 +26,26 @@
       </div>
     </div>
     </div>
-    <div id="section-1" class="text-center bg-[url('/burger-bg-1.jpg')] pb-80 bg-cover">
-      <h1 class="text-6xl text-black text-center font-roboto uppercase pt-20 px-24">The burger tastes better when you eat it with family</h1>
-      <p class="text-black text-center font-roboto text-lg py-6 px-28">Spend quality time with your family and eat an affordable , nutritious and delicious meal together.</p>
-      <button class="font-oswald uppercase bg-red-500 text-white text-center py-3 px-8">Explore Full Menu</button>
+
+    <div id="section-1" class="text-center bg-[url('/three_burgers.jpg')] pb-96 bg-cover">
+    <h1 class="text-6xl uppercase font-oswald pt-20 px-24">
+      The burger tastes better when you eat it with family
+    </h1>
+
+    <p class="font-roboto font-light text-gray-500 text-lg py-6 px-28">
+      Spend quality time with your family and eat an affordable, nutritious and delicious meal together.
+      Not all burgers are fast foods. All our burgers are handmade to order for your family members to enjoy.
+    </p>
+
+    <button class="font-oswald uppercase bg-red-500 text-white py-3 px-8">
+      Explore Full Menu
+    </button>
     </div>
+
     <div id="section-2" class="text-center">
       <h2 class="text-6xl font-oswald text-red-500 uppercase font-medium pt-20">Our Crazy Burgers</h2>
       <p class="text-gray-500 font-light text-x1 my-10 px-20">Whether you are looking for Classics, our specialties or just wraps, salads and fries. We have it all. We always have something that rewards your tastebuds</p>
+    </div>
 
     <div class="grid grid-cols-2 px-80 gap-5">
         <div id="left-item-column">
@@ -44,6 +57,26 @@
           <Item image="ultimate-bacon.jpg" title="Ultimate Bacon" description="House Beef Patty, Cheddar Cheese, Smokey Bacon, Onions, Mustard" price="14.99" />
         </div>
     </div>
+
+      <div id="section-3" class="grid grid-cols-12 font-oswald uppercase text-4xl text-yellow-800 px-40 gap-5">
+        <div class="col-span-5 bg-cover bg-center bg-[url('/fries-bg-1.jpg')] text-right pl-20 pb-10 pt-10 pr-10">
+          <h4>Get Your free</h4>
+          <h4>Cheese Fries</h4>
+          <button class="uppercase bg-red-500 text-white text-lg py-3 px-8 mt-5">Claim Now</button>
+        </div>
+        <div class="col-span-7 bg-cover bg-center bg-[url('/burger-bg-1.jpg')] text-right pr-10 pt-10">
+          <h4>
+          Crispy <br />
+          Chicken
+          </h4>
+          <h4>
+            Burger <br />
+            is back!
+          </h4>
+          <button class="uppercase bg-red-500 text-white text-lg py-3 px-8 mt-5">Claim Now</button>
+        </div>
+      </div>
+      <div id="section-4" class="grid grid-cols-3 px-40 mt-5 gap-5"><img src="offer-1.jpg" alt=""> <img src="offer-2.jpg" alt=""> <img src="offer-3.jpg" alt=""></div>
     </div>
   </div>
 </template>
