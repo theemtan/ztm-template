@@ -134,7 +134,7 @@
         </p>
       </div>
         <div id="section-5" class="grid grid-cols-5 bg-yellow-500 text-amber-900">
-          <div class="col-span-3 pl-20 pt-16 pb-16">
+          <div class="col-span-3 pl-20 pt-16 pb-16 text-center">
             <h4 class="font-oswald text-5xl">
             Download Mobile App
             </h4>
