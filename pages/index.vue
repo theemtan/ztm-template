@@ -32,7 +32,7 @@
       The burger tastes better when you eat it with family
     </h1>
 
-    <p class="font-roboto font-light text-gray-500 text-lg py-6 px-28">
+    <p class="font-roboto font-light text-lg py-6 px-28">
       Spend quality time with your family and eat an affordable, nutritious and delicious meal together.
       Not all burgers are fast foods. All our burgers are handmade to order for your family members to enjoy.
     </p>
