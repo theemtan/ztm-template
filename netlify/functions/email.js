@@ -25,9 +25,9 @@ exports.handler = async function(event, context) {
     const mailer = nodemailer.createTransport({
         host: 'smtp.sendgrid.net',
         port: 465,
-        secure: true
+        secure: true,
         auth: {
-            user:'apikey'
+            user:'apikey',
             pass: process.env.sendgridApiKey
         }
     });
